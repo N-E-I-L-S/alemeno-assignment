@@ -10,7 +10,7 @@ app.use(cors())
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://neil22:neil@patient.n0pj0nd.mongodb.net/courses');
+mongoose.connect('mongodb+srv://neil22:####@patient.n0pj0nd.mongodb.net/courses');
 
 const courseSchema = new mongoose.Schema({
     likes: Number,
